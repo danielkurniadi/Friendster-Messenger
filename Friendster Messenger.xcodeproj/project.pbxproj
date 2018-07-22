@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		D78C9E4820E8AE7900A8E8E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78C9E4720E8AE7900A8E8E0 /* AppDelegate.swift */; };
-		D78C9E4A20E8AE7900A8E8E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78C9E4920E8AE7900A8E8E0 /* ViewController.swift */; };
-		D78C9E4D20E8AE7900A8E8E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D78C9E4B20E8AE7900A8E8E0 /* Main.storyboard */; };
+		D78C9E4A20E8AE7900A8E8E0 /* Controllerclass + MsgCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78C9E4920E8AE7900A8E8E0 /* Controllerclass + MsgCell.swift */; };
 		D78C9E5020E8AE7900A8E8E0 /* Friendster_Messenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D78C9E4E20E8AE7900A8E8E0 /* Friendster_Messenger.xcdatamodeld */; };
 		D78C9E5220E8AE7900A8E8E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D78C9E5120E8AE7900A8E8E0 /* Assets.xcassets */; };
 		D78C9E5520E8AE7900A8E8E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D78C9E5320E8AE7900A8E8E0 /* LaunchScreen.storyboard */; };
+		D78C9E5D20E917F700A8E8E0 /* extension data + FriendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78C9E5C20E917F700A8E8E0 /* extension data + FriendVC.swift */; };
+		D79CEC9C20E943FC001BCF16 /* Friendster_MessengerFriend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79CEC9820E943FC001BCF16 /* Friendster_MessengerFriend+CoreDataClass.swift */; };
+		D79CEC9D20E943FC001BCF16 /* Friendster_MessengerFriend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79CEC9920E943FC001BCF16 /* Friendster_MessengerFriend+CoreDataProperties.swift */; };
+		D79CEC9E20E943FC001BCF16 /* Friendster_MessengerMessage+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79CEC9A20E943FC001BCF16 /* Friendster_MessengerMessage+CoreDataClass.swift */; };
+		D79CEC9F20E943FC001BCF16 /* Friendster_MessengerMessage+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79CEC9B20E943FC001BCF16 /* Friendster_MessengerMessage+CoreDataProperties.swift */; };
+		D79CECA120EA3738001BCF16 /* ChatLogCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79CECA020EA3738001BCF16 /* ChatLogCVC.swift */; };
+		D79CECA320EA592C001BCF16 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79CECA220EA592C001BCF16 /* TabBarController.swift */; };
+		D7D9447D2103A77300D664D7 /* FriendsterMessage+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D944792103A77300D664D7 /* FriendsterMessage+CoreDataClass.swift */; };
+		D7D9447E2103A77300D664D7 /* FriendsterMessage+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D9447A2103A77300D664D7 /* FriendsterMessage+CoreDataProperties.swift */; };
+		D7D9447F2103A77300D664D7 /* FriendsterFriend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D9447B2103A77300D664D7 /* FriendsterFriend+CoreDataClass.swift */; };
+		D7D944802103A77300D664D7 /* FriendsterFriend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D9447C2103A77300D664D7 /* FriendsterFriend+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D78C9E4420E8AE7900A8E8E0 /* Friendster Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Friendster Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78C9E4720E8AE7900A8E8E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D78C9E4920E8AE7900A8E8E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D78C9E4C20E8AE7900A8E8E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D78C9E4920E8AE7900A8E8E0 /* Controllerclass + MsgCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Controllerclass + MsgCell.swift"; sourceTree = "<group>"; };
 		D78C9E4F20E8AE7900A8E8E0 /* Friendster_Messenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Friendster_Messenger.xcdatamodel; sourceTree = "<group>"; };
 		D78C9E5120E8AE7900A8E8E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D78C9E5420E8AE7900A8E8E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D78C9E5620E8AE7900A8E8E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D78C9E5C20E917F700A8E8E0 /* extension data + FriendVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension data + FriendVC.swift"; sourceTree = "<group>"; };
+		D79CEC9820E943FC001BCF16 /* Friendster_MessengerFriend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friendster_MessengerFriend+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D79CEC9920E943FC001BCF16 /* Friendster_MessengerFriend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friendster_MessengerFriend+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D79CEC9A20E943FC001BCF16 /* Friendster_MessengerMessage+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friendster_MessengerMessage+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D79CEC9B20E943FC001BCF16 /* Friendster_MessengerMessage+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friendster_MessengerMessage+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D79CECA020EA3738001BCF16 /* ChatLogCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogCVC.swift; sourceTree = "<group>"; };
+		D79CECA220EA592C001BCF16 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		D7D944792103A77300D664D7 /* FriendsterMessage+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FriendsterMessage+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D7D9447A2103A77300D664D7 /* FriendsterMessage+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FriendsterMessage+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D7D9447B2103A77300D664D7 /* FriendsterFriend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FriendsterFriend+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D7D9447C2103A77300D664D7 /* FriendsterFriend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FriendsterFriend+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,33 @@
 		D78C9E4620E8AE7900A8E8E0 /* Friendster Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				D7D944792103A77300D664D7 /* FriendsterMessage+CoreDataClass.swift */,
+				D7D9447A2103A77300D664D7 /* FriendsterMessage+CoreDataProperties.swift */,
+				D7D9447B2103A77300D664D7 /* FriendsterFriend+CoreDataClass.swift */,
+				D7D9447C2103A77300D664D7 /* FriendsterFriend+CoreDataProperties.swift */,
 				D78C9E4720E8AE7900A8E8E0 /* AppDelegate.swift */,
-				D78C9E4920E8AE7900A8E8E0 /* ViewController.swift */,
-				D78C9E4B20E8AE7900A8E8E0 /* Main.storyboard */,
+				D78C9E4920E8AE7900A8E8E0 /* Controllerclass + MsgCell.swift */,
+				D78C9E5C20E917F700A8E8E0 /* extension data + FriendVC.swift */,
+				D79CECA020EA3738001BCF16 /* ChatLogCVC.swift */,
+				D79CECA220EA592C001BCF16 /* TabBarController.swift */,
 				D78C9E5120E8AE7900A8E8E0 /* Assets.xcassets */,
 				D78C9E5320E8AE7900A8E8E0 /* LaunchScreen.storyboard */,
 				D78C9E5620E8AE7900A8E8E0 /* Info.plist */,
 				D78C9E4E20E8AE7900A8E8E0 /* Friendster_Messenger.xcdatamodeld */,
+				D7D165DE2103ABD700DD3E95 /* old CoreData */,
 			);
 			path = "Friendster Messenger";
+			sourceTree = "<group>";
+		};
+		D7D165DE2103ABD700DD3E95 /* old CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D79CEC9820E943FC001BCF16 /* Friendster_MessengerFriend+CoreDataClass.swift */,
+				D79CEC9920E943FC001BCF16 /* Friendster_MessengerFriend+CoreDataProperties.swift */,
+				D79CEC9A20E943FC001BCF16 /* Friendster_MessengerMessage+CoreDataClass.swift */,
+				D79CEC9B20E943FC001BCF16 /* Friendster_MessengerMessage+CoreDataProperties.swift */,
+			);
+			path = "old CoreData";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +166,6 @@
 			files = (
 				D78C9E5520E8AE7900A8E8E0 /* LaunchScreen.storyboard in Resources */,
 				D78C9E5220E8AE7900A8E8E0 /* Assets.xcassets in Resources */,
-				D78C9E4D20E8AE7900A8E8E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,23 +176,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D78C9E4A20E8AE7900A8E8E0 /* ViewController.swift in Sources */,
+				D7D9447D2103A77300D664D7 /* FriendsterMessage+CoreDataClass.swift in Sources */,
+				D79CECA120EA3738001BCF16 /* ChatLogCVC.swift in Sources */,
+				D78C9E4A20E8AE7900A8E8E0 /* Controllerclass + MsgCell.swift in Sources */,
+				D7D9447E2103A77300D664D7 /* FriendsterMessage+CoreDataProperties.swift in Sources */,
+				D79CEC9F20E943FC001BCF16 /* Friendster_MessengerMessage+CoreDataProperties.swift in Sources */,
+				D7D944802103A77300D664D7 /* FriendsterFriend+CoreDataProperties.swift in Sources */,
+				D79CECA320EA592C001BCF16 /* TabBarController.swift in Sources */,
+				D7D9447F2103A77300D664D7 /* FriendsterFriend+CoreDataClass.swift in Sources */,
+				D78C9E5D20E917F700A8E8E0 /* extension data + FriendVC.swift in Sources */,
+				D79CEC9E20E943FC001BCF16 /* Friendster_MessengerMessage+CoreDataClass.swift in Sources */,
 				D78C9E4820E8AE7900A8E8E0 /* AppDelegate.swift in Sources */,
 				D78C9E5020E8AE7900A8E8E0 /* Friendster_Messenger.xcdatamodeld in Sources */,
+				D79CEC9D20E943FC001BCF16 /* Friendster_MessengerFriend+CoreDataProperties.swift in Sources */,
+				D79CEC9C20E943FC001BCF16 /* Friendster_MessengerFriend+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D78C9E4B20E8AE7900A8E8E0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D78C9E4C20E8AE7900A8E8E0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D78C9E5320E8AE7900A8E8E0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

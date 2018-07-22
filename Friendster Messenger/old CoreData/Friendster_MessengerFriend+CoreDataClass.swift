@@ -1,0 +1,16 @@
+//
+//  Friendster_MessengerFriend+CoreDataClass.swift
+//  Friendster Messenger
+//
+//  Created by Student 3 on 2/7/18.
+//  Copyright © 2018 Student 3. All rights reserved.
+//
+//
+
+import Foundation
+import CoreData
+
+
+public class Friendster_MessengerFriend: NSManagedObject {
+
+}
