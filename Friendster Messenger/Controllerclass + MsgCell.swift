@@ -62,6 +62,7 @@ class FriendsterCollectionController: UICollectionViewController, UICollectionVi
         let chatController = ChatLogController(collectionViewLayout: layout)
 
         chatController.friend = messages?[indexPath.item].toFriend
+        chatController.hidesBottomBarWhenPushed = true
         navigationController?.pushViewController(chatController, animated: true)
     }
     
@@ -194,8 +195,12 @@ extension UIView{
             formatDict["v\(index)"] = viewItem
             viewItem.translatesAutoresizingMaskIntoConstraints = false
         }
+        if hFormat != ""{
             addConstraints(NSLayoutConstraint.constraints(withVisualFormat: hFormat, options: NSLayoutFormatOptions(), metrics: nil, views: formatDict))
+        }
+        if vFormat != ""{
             addConstraints(NSLayoutConstraint.constraints(withVisualFormat: vFormat, options: NSLayoutFormatOptions(), metrics: nil, views: formatDict))
+        }
     }
 }
 
