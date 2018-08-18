@@ -2,7 +2,7 @@
 :iphone: Chat application for iOS/iPhone. I kicked off last weekend by recreating the Friendster Messenger chat application. It was supposed to be a clone of Facebook Messenger chat app but I rebranded the app name.  
 
 <p>
-<img src="img/screenshot/recentscreen.png" width="40%" height="720px"> <img src="img/screenshot/chatscreen.png" width="40%" height= "680px">
+<img src="img/screenshot/recentscreen.png" width="40%" height="720px"><img src="img/screenshot/chatscreen1.png" width="40%" height= "680px">
 </p>
 
 ## Friendster-App: What this project does :
@@ -16,6 +16,4 @@
 - In this project, I learned how to fetch the most recent message for our friends using the power of Core Data.  First we sort our messages in descending order on our date property. Next we create a predicate that filters based on a singular friend.  Finally we execute the above algorithm for each friend in our database.
 - Implement how to send an outgoing message in our Facebook Messenger application.  In addition, I properly inserted rows into a collection view based on the date of the message.
 - Implementation of another NSFetchedResultsController by updating our main FriendsController code. Seeing the true power behind the fetched results by eliminating all the manual sorting we performed in the beginning (XD, CoreData is not that bad...
-
-
 
