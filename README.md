@@ -2,7 +2,7 @@
 :iphone: Chat application for iOS/iPhone. I kicked off last weekend by recreating the Friendster Messenger chat application. It was supposed to be a clone of Facebook Messenger chat app but I rebranded the app name.  
 
 <p>
-<img src="img/screenshot/recentscreen.png" width="40%" height="720px"><img src="img/screenshot/chatscreen1.png" width="40%" height= "680px">
+<img src="img/screenshot/recentscreen.png" width="40%" height="720px"><img src="img/screenshot/chatscreen1.png" width="40%" height= "700px">
 </p>
 
 ## Friendster-App: What this project does :
